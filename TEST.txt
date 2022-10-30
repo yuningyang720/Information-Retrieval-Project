@@ -1,0 +1,42 @@
+Assignment3 Milestone3
+Group members:
+Yuning Yang 55212196
+Jingrui Zhang 54056283
+Xinxin Chang 94697861
+
+
+Test quires with poor performance at the beginning
+1. iftheworddjkk
+for the word that doesn’t exist in the corpus, our search engine at beginning threw exception of keyError since it can’t find the word in the index file. After improving the search engine, we can gracefully handle this exception case. In addition, if there are no result urls being returns, the search engine will display “no matched website” to indicate the result.
+
+2. cristina lopes
+The search for this query didn’t perform at beginning because we treated bold text and title equally important at the beginning. Then we add the weight to the title field in the net score to improve the result.Final proportion is 50% Title1 25%Title2 15%Title 10%bold
+
+3.machine learning
+The search for this query didn't perform because of fragment because we found that there are lots of similar page with content fragments. Then we add some codes to defrag. Now it makes much more in sense.
+
+4.master of software engineering
+The search for this query did not perform well because of title bold proportion, position elements, and time complexity. The final proportion is  50% Title1 25%Title2 15%Title 10%bold. Position elements we just change algorithm to make it more meaningful. And the process of time complexity change shows below.
+
+5.computer
+The search for this query did not perform well because of one word query. When we input, the engine threw the error. We forgot to add the base case for one word query. After we add the base case, we solve the problem.
+
+6. donald bren shcool of information and computer science
+The search for this query did not perform well because obvious long query tokens count. Our algorithm at the beginning is O(n^4) so its take much long time. We made some change and finally became(2n^2)
+
+Other queries:
+7. Artificial intelligence
+8. Amir Rahmani
+9. Professor
+10. spider
+11. AMC
+12. URL
+13. Hackathon
+14. computer science research
+15. course information
+16. statistics
+17. Informatics
+18. Health care
+19. deep learning
+20. Data bases
+

@@ -1,0 +1,23 @@
+body{
+    background-color: beige;
+    text-align: center;
+}
+
+img{
+    margin: 150px 0 50px 0;
+    width: 500px;
+}
+
+input{
+    width: 300px;
+    height: 30px;
+    margin: 20px;
+    border: none;
+    text-align: center;
+}
+
+#search {
+    background-color: palevioletred;
+    color: white;
+    width: 200px;
+}

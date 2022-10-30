@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CS121 Search Engine</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css')}}">
+
+</head>
+<body>
+    <img src="https://search.uci.edu/search-wordmark.png" alt="UCI Search"/>
+    <br>
+    <form action="search" method="get">
+        <label class="sr-only" for="search-text">Search</label>
+        <input class="form-control" id="search-text" name="q" placeholder="Search..." type="text">
+
+            <button class="btn btn-default" name="type" type="submit" value="Search">Search</button>
+        </form>
+
+
+
+</body>
+</html>
